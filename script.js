@@ -36,3 +36,6 @@ pictures.addEventListener('click', () => {
 	new WinBox({
 		title:'Pellichoopulu',
 		url : "https://winay-chowdary66.github.io/Certifications/MathOnrampCertificate.pdf"
+		
+	})
+})
