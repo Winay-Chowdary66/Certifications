@@ -27,7 +27,8 @@ about.addEventListener('click', () => {
 		top: 50,
 		right: 50,
 		bottom: 0,
-		left: 50
+		left: 50,
+		url: "https://github.com/Winay-Chowdary66"
 	});
 });
 
