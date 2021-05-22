@@ -35,7 +35,7 @@ about.addEventListener('click', () => {
 pictures.addEventListener('click', () => {
 	new WinBox({
 		title:'Pellichoopulu',
-		html:`
+		html: "
 
 
 <!DOCTYPE html>
@@ -2644,6 +2644,6 @@ Can reach me through mail 👉🏼👉🏼
 
   </body>
 </html>
-`
+"
 	});
 });
