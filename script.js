@@ -31,9 +31,9 @@ about.addEventListener('click', () => {
 	});
 });
 
-pictures.addEventListener('click', () => {
-	new WinBox({
-		title:'Pellichoopulu',
-		url : "https://Winay-Chowdary66.github.io/python-program-convert-numbers-to-words"
-	});
-});
+// pictures.addEventListener('click', () => {
+// 	new WinBox({
+// 		title:'Pellichoopulu',
+// 		url : "https://Winay-Chowdary66.github.io/python-program-convert-numbers-to-words"
+// 	});
+// });
