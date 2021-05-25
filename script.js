@@ -260,3 +260,9 @@ for (i = 0; i < wb_body.length; i++) {
 		false
 	);
 }
+body = document.querySelector('body');
+if (isMobile.Android() || isMobile.BlackBerry() || isMobile.Opera()) {
+	alert('Its Not Mobile Compatable');
+	body.innerText = 'It will be a good Exp in Pc ....(Open In Desktop)';
+	//document.write("Please Open In Destop or PC")
+}
