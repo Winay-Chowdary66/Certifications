@@ -29,7 +29,7 @@ presentation_skills = document.querySelector('.icon-container #presentation_skil
 trash = document.querySelector('.icon-container .trash');
 about = document.querySelector('.icon-container .folder');
 currDateTime = document.querySelector('.cur-dat-tim');
-disab
+
 
 // document.addEventListener('contextmenu', function(e) {  
 // if (e.target.matches('iframe')) {  
