@@ -55,7 +55,7 @@ nad_101.addEventListener('click', (e) => {
 		width: '50%',
 		height: '50%',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/5b3f4b05102e7b0029c8e93c.pdf#toolbar=0'
+		url: 'https://docs.google.com/viewerng/viewer?url=https://winay-chowdary66.github.io/Certifications/5b3f4b05102e7b0029c8e93c.pdf#toolbar=0'
 	});
 });
 
@@ -70,7 +70,7 @@ wfh_101.addEventListener('click', () => {
 		width: '50%',
 		height: '50%',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/5e906dc84dd27000121842d5%20(1).pdf#toolbar=0'
+		url: 'https://docs.google.com/viewerng/viewer?url=https://winay-chowdary66.github.io/Certifications/5e906dc84dd27000121842d5%20(1).pdf#toolbar=0'
 	});
 });
 ccnav_7.addEventListener('click', () => {
@@ -84,8 +84,7 @@ ccnav_7.addEventListener('click', () => {
 		width: '50%',
 		height: '70%',
 		left: 50,
-		url:
-			'https://winay-chowdary66.github.io/Certifications/ANNANGIVINAY%20CHOWDARY-2017-2021%20Batch-certificate%20(1).pdf#toolbar=0'
+		url: 'https://docs.google.com/viewerng/viewer?url=https://winay-chowdary66.github.io/Certifications/ANNANGIVINAY%20CHOWDARY-2017-2021%20Batch-certificate%20(1).pdf#toolbar=0'
 	});
 });
 ccna_routing.addEventListener('click', () => {
