@@ -55,7 +55,7 @@ nad_101.addEventListener('click', (e) => {
 		width: '50%',
 		height: '50%',
 		left: 50,
-		url: 'https://docs.google.com/viewerng/viewer?url=https://winay-chowdary66.github.io/Certifications/5b3f4b05102e7b0029c8e93c.pdf#toolbar=0'
+		url: 'https://docs.google.com/viewer?url=https://winay-chowdary66.github.io/Certifications/5b3f4b05102e7b0029c8e93c.pdf#toolbar=0&embedded=true'
 	});
 });
 
