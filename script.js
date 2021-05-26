@@ -55,7 +55,7 @@ nad_101.addEventListener('click', (e) => {
 		width: '50%',
 		height: '50%',
 		left: 50,
-		url: 'https://docs.google.com/a/umd.edu/viewer?url=https://winay-chowdary66.github.io/Certifications/5b3f4b05102e7b0029c8e93c.pdf&embedded=true'
+		url: '5b3f4b05102e7b0029c8e93c.pdf&embedded=true'
 	});
 });
 
@@ -70,7 +70,7 @@ wfh_101.addEventListener('click', () => {
 		width: '50%',
 		height: '50%',
 		left: 50,
-		url: 'https://docs.google.com/viewerng/viewer?url=https://winay-chowdary66.github.io/Certifications/5e906dc84dd27000121842d5%20(1).pdf#toolbar=0'
+		url: '5e906dc84dd27000121842d5%20(1).pdf&embedded=true'
 	});
 });
 ccnav_7.addEventListener('click', () => {
@@ -84,7 +84,7 @@ ccnav_7.addEventListener('click', () => {
 		width: '50%',
 		height: '70%',
 		left: 50,
-		url: 'https://docs.google.com/viewerng/viewer?url=https://winay-chowdary66.github.io/Certifications/ANNANGIVINAY%20CHOWDARY-2017-2021%20Batch-certificate%20(1).pdf#toolbar=0'
+		url: 'ANNANGIVINAY%20CHOWDARY-2017-2021%20Batch-certificate%20(1).pdf&embedded=true'
 	});
 });
 ccna_routing.addEventListener('click', () => {
@@ -93,8 +93,7 @@ ccna_routing.addEventListener('click', () => {
 		right: 50,
 		bottom: 0,
 		left: 50,
-		url:
-			'https://winay-chowdary66.github.io/Certifications/ANNANGIVINAY%20CHOWDARY-VAC%20%20-%20CCNA%202021-certificate.pdf#toolbar=0'
+		url: 'ANNANGIVINAY%20CHOWDARY-VAC%20%20-%20CCNA%202021-certificate.pdf&embedded=true'
 	});
 });
 
@@ -102,8 +101,7 @@ cebc.addEventListener('click', () => {
 	new WinBox({
 		title: 'CEBC',
 		left: 50,
-		url:
-			'https://winay-chowdary66.github.io/Certifications/CEBC%20-%20SumTotal.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=scale'
+		url: 'CEBC%20-%20SumTotal.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=scale'
 	});
 });
 
@@ -111,8 +109,7 @@ idcss.addEventListener('click', () => {
 	new WinBox({
 		title: 'IDCSS',
 		left: 50,
-		url:
-			'https://winay-chowdary66.github.io/Certifications/Certificate%20-%20ANNANGI%20VINAY%20CHOWDARY.pdf#toolbar=0'
+		url: 'Certificate%20-%20ANNANGI%20VINAY%20CHOWDARY.pdf&embedded=true'
 	});
 });
 
