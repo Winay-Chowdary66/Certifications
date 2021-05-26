@@ -101,7 +101,7 @@ cebc.addEventListener('click', () => {
 	new WinBox({
 		title: 'CEBC',
 		left: 50,
-		url: 'CEBC%20-%20SumTotal.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=scale'
+		url: 'CEBC%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -117,7 +117,7 @@ guvi_py.addEventListener('click', () => {
 	new WinBox({
 		title: 'GUVI AI in Py',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/GuviCertification%20.pdf#toolbar=0'
+		url: 'GuviCertification%20.pdf&embedded=true'
 	});
 });
 
@@ -125,7 +125,7 @@ front_end.addEventListener('click', () => {
 	new WinBox({
 		title: 'HTML & CSS',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/HTML5%20CSS3%20-%20SumTotal.pdf#toolbar=0'
+		url: 'HTML5%20CSS3%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -133,7 +133,7 @@ istqb.addEventListener('click', () => {
 	new WinBox({
 		title: 'ISTQB Foundation',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/ISTQB%20-%20SumTotal.pdf#toolbar=0'
+		url: 'ISTQB%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -141,7 +141,7 @@ itil.addEventListener('click', () => {
 	new WinBox({
 		title: 'ITIL Foundation',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/ITIL%20-%20SumTotal.pdf#toolbar=0'
+		url: 'ITIL%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -149,7 +149,7 @@ javascript.addEventListener('click', () => {
 	new WinBox({
 		title: 'JavaScript L1',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/Javascript%20-%20SumTotal.pdf#toolbar=0'
+		url: 'Javascript%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -158,7 +158,7 @@ linux.addEventListener('click', () => {
 		title: 'Linux Basics',
 		left: 50,
 		url:
-			'https://winay-chowdary66.github.io/Certifications/Linux%20Basics%20and%20Shell%20Programming%20Certification.pdf#toolbar=0'
+			'Linux%20Basics%20and%20Shell%20Programming%20Certification.pdf&embedded=true'
 	});
 });
 
@@ -166,7 +166,7 @@ mathworks.addEventListener('click', () => {
 	new WinBox({
 		title: 'Math Works OnRamp',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/MathOnrampCertificate.pdf#toolbar=0'
+		url: 'MathOnrampCertificate.pdf&embedded=true'
 	});
 });
 
@@ -174,7 +174,7 @@ nad_micro.addEventListener('click', () => {
 	new WinBox({
 		title: 'NAD Microservices',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/NAD%20Microservice%20-%20SumTotal.pdf#toolbar=0'
+		url: 'NAD%20Microservice%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -182,7 +182,7 @@ nad_scrum.addEventListener('click', () => {
 	new WinBox({
 		title: 'NAD Scrum',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/NAD%20Scrum%20-%20SumTotal.pdf#toolbar=0'
+		url: 'NAD%20Scrum%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -190,7 +190,7 @@ ps_matlab.addEventListener('click', () => {
 	new WinBox({
 		title: 'MatLab Simulink',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/PS-APSSDC-MATLAB-1987.pdf#toolbar=0'
+		url: 'PS-APSSDC-MATLAB-1987.pdf&embedded=true'
 	});
 });
 
@@ -198,7 +198,7 @@ pwr_ele.addEventListener('click', () => {
 	new WinBox({
 		title: 'Power Electronics',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/PS-PE-APR-MC-1586.pdf#toolbar=0'
+		url: 'PS-PE-APR-MC-1586.pdf&embedded=true'
 	});
 });
 
@@ -206,7 +206,7 @@ img_proc.addEventListener('click', () => {
 	new WinBox({
 		title: 'Image Processing',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/PS-IP-APR-MC-2613.pdf#toolbar=0'
+		url: 'PS-IP-APR-MC-2613.pdf&embedded=true'
 	});
 });
 
@@ -214,7 +214,7 @@ unix_basics.addEventListener('click', () => {
 	new WinBox({
 		title: 'Unix Fundamentals and Commands',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/Unix%20-%20SumTotal.pdf#toolbar=0'
+		url: 'Unix%20-%20SumTotal.pdf&embedded=true'
 	});
 });
 
@@ -222,7 +222,7 @@ pwa.addEventListener('click', () => {
 	new WinBox({
 		title: 'Progressive Web App',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/udemy_PWA_crt.pdf#toolbar=0'
+		url: 'udemy_PWA_crt.pdf&embedded=true'
 	});
 });
 
@@ -230,7 +230,7 @@ java.addEventListener('click', () => {
 	new WinBox({
 		title: 'Java',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/udemy_java_crt.pdf#toolbar=0'
+		url: 'udemy_java_crt.pdf&embedded=true'
 	});
 });
 
@@ -238,7 +238,7 @@ presentation_skills.addEventListener('click', () => {
 	new WinBox({
 		title: 'Presentation Skills',
 		left: 50,
-		url: 'https://winay-chowdary66.github.io/Certifications/udemy_presentation_skills.pdf#toolbar=0'
+		url: 'udemy_presentation_skills.pdf&embedded=true'
 	});
 });
 
@@ -256,6 +256,27 @@ for (i = 0; i < wb_body.length; i++) {
 		false
 	);
 }
+var isMobile = {
+	Android: function() {
+		return navigator.userAgent.match(/Android/i);
+	},
+	BlackBerry: function() {
+		return navigator.userAgent.match(/BlackBerry/i);
+	},
+	iOS: function() {
+		return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	},
+	Opera: function() {
+		return navigator.userAgent.match(/Opera Mini/i);
+	},
+	Windows: function() {
+		return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+	},
+	any: function() {
+		return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
+	}
+};
+
 body = document.querySelector('body');
 if (isMobile.Android() || isMobile.BlackBerry() || isMobile.Opera()) {
 	alert('Its Not Mobile Compatable');
