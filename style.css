@@ -10,38 +10,21 @@
 	--text-color: rgb(179, 172, 172);
 }
 
-.pre-loader{
+.pre-loader {
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
-	background: #fff url("./images/Santa\ Claus\ animated.gif") no-repeat center;
-	/* background-size: 20%; */
+	background: #fff url("./images/Santa\ Claus\ animated.gif") no-repeat center center;
 	z-index: 99999;
-}
-.pre-loader span{
-    position: relative;
-	width: 100%;
-	height: 100vh;
-	top: 50%;
-	left: 45%;
-	text-align: center;
-	align-items: center;
-}
-.pre-loader hr{
-    position: relative;
-	width: 100%;
-	top: 45%;
-	left: 30%;
-	text-align: center;
-	align-items: center;
 }
 
 .container {
-	background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25)),url("./images/parrot-os-bg.jpg") no-repeat fixed;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25)),
+		url("./images/parrot-os-bg.jpg") no-repeat fixed;
 	background-position: center center;
 	background-size: cover;
-	min-width: 100%;
-	min-height: 100vh;
+	min-width: 100vw;
+	height: 100vh;
 	object-fit: cover;
 }
 .nav-container {
@@ -49,7 +32,7 @@
 	position: fixed;
 	width: 100%;
 	height: 4vh;
-    filter: blur(0.5px);
+	filter: blur(0.5px);
 }
 nav {
 	display: flex;
@@ -108,7 +91,7 @@ nav .right-nav {
 	right: -1.5%;
 	color: var(--text-color);
 }
-nav .right-nav div{
+nav .right-nav div {
 	position: relative;
 	margin-left: -10px;
 	min-width: 30px;
@@ -138,6 +121,7 @@ footer {
 	position: fixed;
 	width: 100%;
 	height: 4vh;
+	left: 0;
 	bottom: 0px;
 	background-color: #2d2d2d;
 }
@@ -152,7 +136,7 @@ footer {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.dotted-menu .dots{
+.dotted-menu .dots {
 	transition: all 1s ease;
 }
 .dots:nth-child(1),
@@ -189,8 +173,8 @@ footer {
 	border-radius: 50px;
 }
 
-.dotted-menu:hover .dots{
-    border-radius: 0px;
+.dotted-menu:hover .dots {
+	border-radius: 0px;
 	transform: scale(1.3);
 	height: 0.7vh;
 	border: 1px solid rgb(45, 45, 45);
@@ -233,46 +217,41 @@ footer ul li {
 	/* padding: 10px; */
 	transition: all 1s ease;
 }
-.icon-container span{
+.icon-container span {
 	position: relative;
 	word-break: break-word;
 	word-wrap: break-word;
 	writing-mode: horizontal-tb;
 	text-align: justify;
-    text-justify: inter-word;
+	text-justify: inter-word;
 }
 
 .home {
-	grid-row: 1/1;	
+	grid-row: 1/1;
 	margin-bottom: 20px;
-
 }
 .pictures {
 	grid-row: 2/3;
 	margin-bottom: 20px;
-
 }
 .games {
-	grid-row: 1/2;	
+	grid-row: 1/2;
 	margin-bottom: 20px;
-
 }
 .trash {
-	grid-row: 3/4;	
+	grid-row: 3/4;
 	margin-bottom: 20px;
-
 }
 .about {
-	grid-row: 2/3;	
-	margin-bottom: 20px;
-
-}
-.doc{
-	grid-row: 4/5;	
+	grid-row: 2/3;
 	margin-bottom: 20px;
 }
-.folder{
-	grid-row: 5/6;	
+.doc {
+	grid-row: 4/5;
+	margin-bottom: 20px;
+}
+.folder {
+	grid-row: 5/6;
 	margin-bottom: 20px;
 }
 
@@ -280,72 +259,124 @@ footer ul li {
 .icon-container .pictures svg:hover,
 .icon-container .games svg:hover,
 .icon-container .trash svg:hover,
-.icon-container .about svg:hover, 
+.icon-container .about svg:hover,
 .icon-container .doc svg:hover,
 .icon-container .folder svg:hover {
-    cursor: pointer;
+	cursor: pointer;
 	transform: scale(1.5);
 	/* background-color: var(--text-hover-color); */
 	/* box-shadow: -1px -1px 2px rgba(3, 115, 113, 1), inset -1px -1px 5px rgba(3, 115, 113, 1), */
-		/* 8px 30px 30px rgba(0, 0, 0, 0.4), inset -2px -2px 5px rgba(0, 0, 0, 0.3); */
+	/* 8px 30px 30px rgba(0, 0, 0, 0.4), inset -2px -2px 5px rgba(0, 0, 0, 0.3); */
 }
 
 /* Win-Box*/
 
 .winbox {
-    background: linear-gradient(90deg, #ff00f0, #0050ff);
-    border-radius: 12px 12px 0 0;
-    box-shadow: none;
+	background: linear-gradient(90deg, #ff00f0, #0050ff);
+	border-radius: 12px 12px 0 0;
+	box-shadow: none;
 }
 
 .winbox.min {
-    border-radius: 0;
+	border-radius: 0;
 }
 
 .wb-body {
-    /* the width of window border: */
-    margin: 4px;
-    color: #fff;
-    background: #131820;
+	/* the width of window border: */
+	margin: 4px;
+	color: #fff;
+	background: #131820;
 }
 
 .wb-icon * {
-    opacity: 0.65;
+	opacity: 0.65;
 }
 
 .wb-icon *:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 .wb-min {
-    background-image: url(src/img/min.svg);
-    background-size: 15px center;
+	background-image: url(src/img/min.svg);
+	background-size: 15px center;
 }
 
 .wb-max {
-    background-image: url(src/img/max.svg);
+	background-image: url(src/img/max.svg);
 }
 
 .wb-close {
-    background-image: url(src/img/close.svg);
+	background-image: url(src/img/close.svg);
 }
 
 .wb-full {
-    display: none;
+	display: none;
 }
 .wb-body::-webkit-scrollbar {
-    width: 12px;
+	width: 12px;
 }
 .wb-body::-webkit-scrollbar-track {
-    background: transparent;
+	background: transparent;
 }
 .wb-body::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: #263040;
+	border-radius: 10px;
+	background: #263040;
 }
 .wb-body::-webkit-scrollbar-thumb:window-inactive {
-    background: #181f2a;
+	background: #181f2a;
 }
 .wb-body::-webkit-scrollbar-corner {
-    background: transparent;
+	background: transparent;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.nav-container nav .start,
+	.nav-container nav .left-nav {
+		display: none;
+	}
+	.nav-container nav .right-nav {
+		right: 15%;
+	}
+	.icon-container {
+		position: relative;
+		display: block;
+		overflow: scroll;
+		width: 60vw;
+		height: 77vh;
+	}
+	.icon-container .home svg:hover,
+	.icon-container .pictures svg:hover,
+	.icon-container .games svg:hover,
+	.icon-container .trash svg:hover,
+	.icon-container .about svg:hover,
+	.icon-container .doc svg:hover,
+	.icon-container .folder svg:hover {
+		transform: none;
+	}
+	.icon-container .home:hover,
+	.icon-container .pictures:hover,
+	.icon-container .games:hover,
+	.icon-container .trash:hover,
+	.icon-container .about:hover,
+	.icon-container .doc:hover,
+	.icon-container .folder:hover {
+		background-color: var(--text-color);
+	}
+
+	.pre-loader {
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		background: #fff url("./images/Walk.gif") no-repeat center;
+		z-index: 99999;
+	}
+
+	.icon-container span {
+		letter-spacing: 2px;
+		color: #fff;
+		top: -20px;
+		left: 20px;
+		font-size: 20px;
+		font-weight: bolder;
+	}
 }
