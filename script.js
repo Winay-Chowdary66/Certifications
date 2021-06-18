@@ -80,18 +80,17 @@ imagesArray = [
 ];
 
 if (isMobile.Android() || isMobile.BlackBerry() || isMobile.Opera()) {
+	console.log(imagesArray[Math.floor(Math.random() * (16 - 1) + 1)]);
 	body.style.backgroundColor = 'linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25))';
-	body.style.backgroundImage = 'url(' + imagesArray[Math.floor(Math.random() * (16 - 0) + 0)] + ')';
+	body.style.backgroundImage = 'url(' + imagesArray[Math.floor(Math.random() * (16 - 1) + 1)] + ')';
 	body.style.objectFit = 'cover';
 }
-
 function preLoad() {
 	window.setInterval(() => {
 		preLoader.style.display = 'none';
 	}, 1700);
 }
 let mobile = isMobile.Android() || isMobile.BlackBerry() || isMobile.Opera() ? true : false;
-
 
 let curdate = new Date().toUTCString();
 curdate = curdate.split(' ').slice(0, 5).join(' ');
@@ -111,9 +110,6 @@ nad_101.addEventListener('click', (e) => {
 });
 
 wfh_101.addEventListener('click', () => {
-	// window.setTimeout(() => {
-	// 	preLoader.style.display = 'block';
-	// }, 1000);
 	new WinBox({
 		title: 'WFH 101',
 		modal: mobile,
@@ -219,8 +215,7 @@ linux.addEventListener('click', () => {
 		title: 'Linux Basics',
 		modal: mobile,
 		left: 50,
-		url:
-			'Linux%20Basics%20and%20Shell%20Programming%20Certification.pdf&embedded=true'
+		url: 'Linux%20Basics%20and%20Shell%20Programming%20Certification.pdf&embedded=true'
 	});
 });
 
@@ -328,4 +323,3 @@ for (i = 0; i < wb_body.length; i++) {
 		false
 	);
 }
-
