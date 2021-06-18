@@ -14,13 +14,15 @@
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: #fff url("./images/Santa\ Claus\ animated.gif") no-repeat center center;
+	background: #fff url("./images/Santa\ Claus\ animated.gif");
+	background-repeat: no-repeat;
+	background-position: center;
 	z-index: 99999;
 }
 
 .container {
-	background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25)),
-		url("./images/parrot-os-bg.jpg") no-repeat fixed;
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25)), url("./images/parrot-os-bg.jpg");
+	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	min-width: 100vw;
